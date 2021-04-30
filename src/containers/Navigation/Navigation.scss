@@ -1,0 +1,75 @@
+.nav {
+  position: relative;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2.5rem 6rem;
+
+  border-bottom: 1px solid rgba(white, 0.2);
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+
+  opacity: 0.8;
+
+  height: 2.5rem;
+
+  transition: all 0.3s;
+  &:hover {
+    opacity: 1;
+  }
+
+  &-icon {
+    height: 100%;
+  }
+
+  &-text {
+    margin-left: 1rem;
+
+    font-family: merriweather, serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: white;
+  }
+}
+
+.nav__link {
+  opacity: 0.8;
+
+  font-size: 1.5rem;
+  line-height: 1.4em;
+  color: white;
+
+  transition: all 1.3s;
+  &:hover {
+    opacity: 1;
+  }
+
+  &--active {
+    opacity: 1;
+
+    font-weight: 700;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  &-list {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+  }
+
+  &-wrapper {
+    & + & {
+      margin-left: 3rem;
+    }
+  }
+}

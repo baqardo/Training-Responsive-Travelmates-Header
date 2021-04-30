@@ -1,0 +1,46 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: open-sans, sans-serif;
+  // font-family: merriweather, serif;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 4rem;
+    top: 0;
+
+    z-index: 10;
+    pointer-events: none;
+
+    height: 50vh;
+    width: 1px;
+    background-color: rgba(white, 0.2);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 4rem;
+    top: 0;
+
+    z-index: 10;
+    pointer-events: none;
+
+    height: 35vh;
+    width: 1px;
+    background-color: rgba(white, 0.2);
+  }
+
+  &__background-mask {
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #000000ce 0%, #7272721c 77%, #80808000 100%);
+  }
+}
