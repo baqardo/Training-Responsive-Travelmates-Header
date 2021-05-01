@@ -5,9 +5,23 @@
   display: flex;
   align-items: center;
 
-  padding: 2.5rem 6rem;
+  padding: 2.5rem 8rem;
 
-  border-bottom: 1px solid rgba(white, 0.2);
+  border-bottom: 1px solid rgba(white, 0.35);
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 6rem;
+    top: 0;
+
+    z-index: 10;
+    pointer-events: none;
+
+    height: 50vh;
+    width: 1px;
+    background-color: rgba(white, 0.35);
+  }
 }
 
 .nav__logo {
@@ -41,7 +55,7 @@
 .nav__link {
   opacity: 0.8;
 
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.4em;
   color: white;
 

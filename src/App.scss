@@ -8,34 +8,6 @@
   font-family: open-sans, sans-serif;
   // font-family: merriweather, serif;
 
-  &:before {
-    content: "";
-    position: absolute;
-    left: 4rem;
-    top: 0;
-
-    z-index: 10;
-    pointer-events: none;
-
-    height: 50vh;
-    width: 1px;
-    background-color: rgba(white, 0.2);
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    right: 4rem;
-    top: 0;
-
-    z-index: 10;
-    pointer-events: none;
-
-    height: 35vh;
-    width: 1px;
-    background-color: rgba(white, 0.2);
-  }
-
   &__background-mask {
     position: absolute;
 
