@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.dba24048.chunk.css",
-    "main.js": "/static/js/main.66607ef8.chunk.js",
-    "main.js.map": "/static/js/main.66607ef8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2e74d33b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2e74d33b.js.map",
-    "static/js/2.b7c27235.chunk.js": "/static/js/2.b7c27235.chunk.js",
-    "static/js/2.b7c27235.chunk.js.map": "/static/js/2.b7c27235.chunk.js.map",
-    "static/js/3.84669503.chunk.js": "/static/js/3.84669503.chunk.js",
-    "static/js/3.84669503.chunk.js.map": "/static/js/3.84669503.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.dba24048.chunk.css.map": "/static/css/main.dba24048.chunk.css.map",
-    "static/js/2.b7c27235.chunk.js.LICENSE.txt": "/static/js/2.b7c27235.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/background.5c4eff83.png",
-    "static/media/logo.dd25af6e.svg": "/static/media/logo.dd25af6e.svg",
-    "static/media/scroll.9033618c.svg": "/static/media/scroll.9033618c.svg"
+    "main.css": "/Training-Responsive-Travelmates-Header/static/css/main.b6f00c63.chunk.css",
+    "main.js": "/Training-Responsive-Travelmates-Header/static/js/main.66607ef8.chunk.js",
+    "main.js.map": "/Training-Responsive-Travelmates-Header/static/js/main.66607ef8.chunk.js.map",
+    "runtime-main.js": "/Training-Responsive-Travelmates-Header/static/js/runtime-main.a5f23ece.js",
+    "runtime-main.js.map": "/Training-Responsive-Travelmates-Header/static/js/runtime-main.a5f23ece.js.map",
+    "static/js/2.b7c27235.chunk.js": "/Training-Responsive-Travelmates-Header/static/js/2.b7c27235.chunk.js",
+    "static/js/2.b7c27235.chunk.js.map": "/Training-Responsive-Travelmates-Header/static/js/2.b7c27235.chunk.js.map",
+    "static/js/3.84669503.chunk.js": "/Training-Responsive-Travelmates-Header/static/js/3.84669503.chunk.js",
+    "static/js/3.84669503.chunk.js.map": "/Training-Responsive-Travelmates-Header/static/js/3.84669503.chunk.js.map",
+    "index.html": "/Training-Responsive-Travelmates-Header/index.html",
+    "static/css/main.b6f00c63.chunk.css.map": "/Training-Responsive-Travelmates-Header/static/css/main.b6f00c63.chunk.css.map",
+    "static/js/2.b7c27235.chunk.js.LICENSE.txt": "/Training-Responsive-Travelmates-Header/static/js/2.b7c27235.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Training-Responsive-Travelmates-Header/static/media/background.5c4eff83.png",
+    "static/media/logo.dd25af6e.svg": "/Training-Responsive-Travelmates-Header/static/media/logo.dd25af6e.svg",
+    "static/media/scroll.9033618c.svg": "/Training-Responsive-Travelmates-Header/static/media/scroll.9033618c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e74d33b.js",
+    "static/js/runtime-main.a5f23ece.js",
     "static/js/2.b7c27235.chunk.js",
-    "static/css/main.dba24048.chunk.css",
+    "static/css/main.b6f00c63.chunk.css",
     "static/js/main.66607ef8.chunk.js"
   ]
 }
