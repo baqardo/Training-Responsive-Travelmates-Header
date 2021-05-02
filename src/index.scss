@@ -9,6 +9,10 @@
 html {
   font-size: 16px;
 
+  @media screen and (min-width: 1601px) {
+    font-size: clamp(16px, 1vw, 20px);
+  }
+
   @media screen and (min-width: 1281px) and (max-width: 1600px) {
     font-size: clamp(12px, 1vw, 16px);
   }
@@ -28,4 +32,12 @@ html {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.no-overflow {
+  overflow-y: hidden;
 }

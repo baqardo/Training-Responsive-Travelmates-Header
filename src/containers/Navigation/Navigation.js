@@ -5,6 +5,16 @@ import "./Navigation.scss";
 import logo from "../../assets/svg/logo.svg";
 
 class Navigation extends Component {
+  state = { burgerActive: false };
+
+  toggleBurger = () => {
+    document.body.classList.toggle("no-overflow");
+
+    this.setState(oldState => {
+      return { burgerActive: !oldState.burgerActive };
+    });
+  };
+
   render() {
     return (
       <nav className="nav">
@@ -46,6 +56,50 @@ class Navigation extends Component {
             </a>
           </li>
         </ul>
+
+        <a
+          href="#home"
+          className={`nav__burger ${this.state.burgerActive ? "nav__burger--active" : ""}`}
+          onClick={this.toggleBurger}>
+          <div className="nav__burger-line"></div>
+          <div className="nav__burger-line"></div>
+          <div className="nav__burger-line"></div>
+        </a>
+
+        <div className={`nav__mobile ${this.state.burgerActive ? "nav__mobile--visible" : ""}`}>
+          <ul className={`nav__mobile-list ${this.state.burgerActive ? "nav__mobile-list--visible" : ""}`}>
+            <li className="nav__mobile-item">
+              <a className="nav__link nav__link--mobile" href="#home" onClick={this.toggleBurger}>
+                Home
+              </a>
+            </li>
+            <li className="nav__mobile-item">
+              <a className="nav__link nav__link--mobile" href="#home" onClick={this.toggleBurger}>
+                Members
+              </a>
+            </li>
+            <li className="nav__mobile-item">
+              <a className="nav__link nav__link--mobile" href="#home" onClick={this.toggleBurger}>
+                About Us
+              </a>
+            </li>
+            <li className="nav__mobile-item">
+              <a className="nav__link nav__link--mobile" href="#home" onClick={this.toggleBurger}>
+                Testimonials
+              </a>
+            </li>
+            <li className="nav__mobile-item">
+              <a className="nav__link nav__link--mobile" href="#home" onClick={this.toggleBurger}>
+                Gallery
+              </a>
+            </li>
+            <li className="nav__mobile-item">
+              <a className="nav__link nav__link--mobile" href="#home" onClick={this.toggleBurger}>
+                Sign In
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     );
   }
