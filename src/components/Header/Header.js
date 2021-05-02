@@ -11,7 +11,9 @@ const Header = props => (
         <p className="header__cta-line">Explore the world</p>
         <p className="header__cta-line header__cta-line--pushed">with exciting people!</p>
       </div>
-      <div className="header__cta-mission">We help people to find ideal company for the joint trips</div>
+      <div className="header__cta-mission">
+        We help people to find ideal company <br className="header__cta-break" /> for the joint trips
+      </div>
       <a className="header__cta-btn" href="#home">
         Start
       </a>
