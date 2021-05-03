@@ -45,6 +45,13 @@ const Header = props => (
         <img className="header__more-arrow" src={scrollIcon} alt="arrow  down" />
       </div>
     </div>
+
+    <div className="header__credits">
+      Designed by
+      <a className="header__credits-link" href="https://dribbble.com/Pragathesh">
+        Pragathesh Ravi
+      </a>
+    </div>
   </header>
 );
 

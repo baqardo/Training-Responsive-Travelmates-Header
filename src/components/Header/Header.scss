@@ -297,3 +297,16 @@
     transform: rotate(-90deg);
   }
 }
+
+.header__credits {
+  margin-top: 2rem;
+
+  font-size: 1.5rem;
+  color: white;
+
+  &-link {
+    margin-left: 0.5rem;
+
+    color: #03cfff;
+  }
+}
